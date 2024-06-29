@@ -1,0 +1,18 @@
+.inputField{
+    padding : 5px;
+    width : 50%;
+    margin : 8px;
+    transition: background-color 0.2s;
+    border-radius: 5px;
+    border-color :'#33484d';
+    border-width: 2px;
+}
+.addButton{
+    width:30%;
+    padding : 5px;
+    margin : 8px;
+    border-radius: 5px;
+    background-color: #769353;
+    color:antiquewhite;
+    border-color :'#33484d';
+}

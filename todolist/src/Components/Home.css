@@ -1,0 +1,43 @@
+/* Home.css */
+.homeContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+    background-image: url('../img.png'); /* Adjust the path according to your project structure */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.homeContainer > * {
+    position: relative;
+    z-index: 1;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    justify-content: space-between;
+    background-color: rgba(173, 212, 151, 0.8);
+}
+
+.text{
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
